@@ -21,7 +21,7 @@ export const InputBox = ({
                     placeholder="Amount"
                     disabled={amountDisable}
                     value={amount}
-                    onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value) || 0)} // Fix NaN issue
+                    onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value) || 0)} 
                 />
             </div>
             <div className="w-1/2 flex flex-wrap justify-end text-right">
@@ -31,7 +31,6 @@ export const InputBox = ({
                     value={selectCurrency}
                     onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
                     disabled={currencyDisable}
-                    // style={{ maxHeight: "150px", overflowY: "auto", appearance: "auto" }} // Ensures scrolling works
                 >
                     {currencyOptions.map((currency) => (
                         <option key={currency} value={currency}>
