@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='w-screen h-screen fixed top-0 left-0 duration-200'
     style={{backgroundColor: color}}>
-      <h1 className='text-5xl top-20'> Pookie !!</h1>
+      <h1 className='text-5xl top-20'> Pookie !!!!</h1>
       <div className='fixed flex flex-wrap justify-center bottom-20 inset-x-0 px-2'>
         <div className='fixed flex flex-wrap justify-center gap-3 bg-amber-900 px-3 py-2 rounded-3xl'>
           <button
